@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6r0131/v1
+canonical_location: https://kanripo.org/bkk/KR6r0131/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 天台山記
+  identifiers:
+    alt_id:
+    - T51n2096
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T51/T51n2096.xml
+    old_id: T51n2096
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0131_000.yaml, hash: 'sha256:3ccc80ccf5ac6493076717c1f4c58836dd087d2f60134c799dc355bc7dca253a'}
+  - {seq: 1, filename: KR6r0131_001.yaml, hash: 'sha256:24885b0575f5da5a63b5505f0c2a276a1801e2069bf5e84e6076fe1665dd7334'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6r0131_001.markers.yaml, hash: 'sha256:c47ac6f1482bfe17923a5997d5101163f6d996c53b4b7e2cf46516cecb696ce9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0131_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5132
+  label: 天台山記
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0131_T_001-mulu-1
+    span:
+    - body
+    - 5051
+    - 5051
+  label: 直齋書錄解題 天台山記一卷
+  type: mulu
+  level: 1
+hash: sha256:b81511be47d64ffa2f11352cd83546f8904cd7941bfa99971e50547eabcc0f72
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

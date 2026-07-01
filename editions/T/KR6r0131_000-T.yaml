@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6r0131/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天台山記
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T51/T51n2096.xml
+    old_id: T51n2096
+hash: sha256:3ccc80ccf5ac6493076717c1f4c58836dd087d2f60134c799dc355bc7dca253a
