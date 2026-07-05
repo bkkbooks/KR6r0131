@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0131_000.yaml, hash: 'sha256:3ccc80ccf5ac6493076717c1f4c58836dd087d2f60134c799dc355bc7dca253a'}
-  - {seq: 1, filename: KR6r0131_001.yaml, hash: 'sha256:24885b0575f5da5a63b5505f0c2a276a1801e2069bf5e84e6076fe1665dd7334'}
+  - {seq: 1, filename: KR6r0131_001.yaml, hash: 'sha256:6ccf04732318075afc2cc28a8dddb351bf794c7b904bc012a5a642d876c1a0c6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0131_001.markers.yaml, hash: 'sha256:c47ac6f1482bfe17923a5997d5101163f6d996c53b4b7e2cf46516cecb696ce9'}
+  - {seq: 0, role: markers, filename: assets/KR6r0131_000.markers.yaml, hash: 'sha256:11d9133b5f202f9b44071bbf8ada39b2d23a3e0f28fba32ae9674339d2aa4483'}
+  - {seq: 1, role: markers, filename: assets/KR6r0131_001.markers.yaml, hash: 'sha256:daae0574fc436c0905d1b17a8c820fbea23b55b3aa37e06c89a1b5f99f13193c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,7 +47,4 @@ table_of_contents:
   label: 直齋書錄解題 天台山記一卷
   type: mulu
   level: 1
-hash: sha256:b81511be47d64ffa2f11352cd83546f8904cd7941bfa99971e50547eabcc0f72
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:4aa2efbf88392712e089076df2f33e7f101e808174e9415e1076e93225cfe1ad
